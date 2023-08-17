@@ -20,9 +20,9 @@ systemctl enable chronyd
 # Nginx ami installation 
 -----------------------------------------
 ```
-yum install -y https://dl.fedoraproject.org/pub/epel/epel-release-latest-8.noarch.rpm
+yum install -y https://dl.fedoraproject.org/pub/epel/epel-release-latest-9.noarch.rpm
 
-yum install -y dnf-utils http://rpms.remirepo.net/enterprise/remi-release-8.rpm
+yum install -y dnf-utils http://rpms.remirepo.net/enterprise/remi-release-9.rpm
 
 yum install wget vim python3 telnet htop git mysql net-tools chrony -y
 
